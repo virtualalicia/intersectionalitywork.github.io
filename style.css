@@ -46,9 +46,12 @@ nav ul li a {
     font-size: 18px;
 }
 
+/* Ensure section backgrounds are responsive */
 section {
     padding: 80px;
-    height: fit-content;
+    height: 100%; /* Use vh units for height */
+    width: 100%; /* Ensure sections take up full width */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
 }
 
 #section1 { background: #f4f4f4; }
@@ -68,45 +71,26 @@ footer {
 }
 
 /* Responsive Styles */
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    section {
+        padding: 60px;
+        height: fit-content;
+    }
+}
+
 @media (max-width: 768px) {
-    header {
-        padding: 150px 0;
-    }
-
-    .header-content {
-        padding: 50px 0;
-    }
-
-    nav ul {
-        flex-direction: column;
-    }
-
-    nav ul li {
-        margin: 10px 0;
-    }
-
     section {
         padding: 40px;
-        height: auto;
+        height: fit-content;
     }
 }
 
 @media (max-width: 480px) {
-    header {
-        padding: 100px 0;
-    }
-
-    .header-content {
-        padding: 30px 0;
-    }
-
-    nav ul li a {
-        font-size: 16px;
-    }
-
     section {
         padding: 20px;
+        height: fit-content;
     }
-}
+} 
 
  
