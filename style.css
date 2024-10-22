@@ -55,10 +55,10 @@ section {
 }
 
 #section1 { background: #f4f4f4; }
-#section2 { background: #e2e2e2; }
-#section3 { background: #d0d0d0; }
+#section2 { background: #f4f4f4; }
+#section3 { background: #f4f4f4; }
 #section4 { background: #f4f4f4; }
-#section5 { background: #e2e2e2; }
+#section5 { background: #f4f4f4; }
 
 footer {
     text-align: center;
@@ -75,21 +75,21 @@ footer {
 @media (max-width: 1200px) {
     section {
         padding: 60px;
-        height: auto;
+        height: fit-content;
     }
 }
 
 @media (max-width: 768px) {
     section {
         padding: 40px;
-        height: auto;
+        height: fot-content;
     }
 }
 
 @media (max-width: 480px) {
     section {
         padding: 20px;
-        height: auto;
+        height: fit-content;
     }
 } 
 
