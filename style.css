@@ -28,6 +28,7 @@ nav {
     left: 0;
 }
 
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -46,19 +47,17 @@ nav ul li a {
     font-size: 18px;
 }
 
-/* Ensure section backgrounds are responsive */
 section {
     padding: 80px;
-    height: 100%; /* Use vh units for height */
-    width: 100%; /* Ensure sections take up full width */
-    box-sizing: border-box; /* Include padding in the element's total width and height */
+    height: fit-content;
 }
 
 #section1 { background: #f4f4f4; }
-#section2 { background: #f4f4f4; }
-#section3 { background: #f4f4f4; }
+#section2 { background: #e2e2e2; }
+#section3 { background: #d0d0d0; }
 #section4 { background: #f4f4f4; }
-#section5 { background: #f4f4f4; }
+#section5 { background: #e2e2e2; }
+
 
 footer {
     text-align: center;
@@ -69,28 +68,4 @@ footer {
     width: 100%;
     bottom: 0;
 }
-
-/* Responsive Styles */
-/* Media Queries for Responsiveness */
-@media (max-width: 1200px) {
-    section {
-        padding: 60px;
-        height: fit-content;
-    }
-}
-
-@media (max-width: 768px) {
-    section {
-        padding: 40px;
-        height: fot-content;
-    }
-}
-
-@media (max-width: 480px) {
-    section {
-        padding: 20px;
-        height: fit-content;
-    }
-} 
-
  
