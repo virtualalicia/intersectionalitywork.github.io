@@ -48,7 +48,7 @@ nav ul li a {
 
 section {
     padding: 80px;
-    height: auto;
+    height: fit-content;
 }
 
 #section1 { background: #f4f4f4; }
